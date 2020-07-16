@@ -1,7 +1,7 @@
 # DA_dahazing
 This is the PyTorch implementation for our CVPR'20 paper:
 
-**Yuanjie Shao, Lerenhan Li, Wenqi Ren, Changxin Gao, Nong Sang. Domain Adaptation for Image Dehazing. [PAPER](https://arxiv.org/pdf/2005.04668.pdf) **
+**Yuanjie Shao, Lerenhan Li, Wenqi Ren, Changxin Gao, Nong Sang. Domain Adaptation for Image Dehazing. [PAPER](https://openaccess.thecvf.com/content_CVPR_2020/papers/Shao_Domain_Adaptation_for_Image_Dehazing_CVPR_2020_paper.pdf) **
 
 ## Environment
 1. Python 3.6
