@@ -10,6 +10,9 @@ This is the PyTorch implementation for our CVPR'20 paper:
 4. Ubuntu 16.04
 
 ## Training 
+- Dataset
+Google drive: [DATASETS](https://drive.google.com/drive/folders/10cP6Z-n2G0006_ppW1WxkQpNKg3mSfnj).
+
 - Train CycleGAN 
 ```
 python train.py --dataroot ./datasets/dehazing --name run_cyclegan --learn_residual --resize_or_crop crop --display_freq 100 --print_freq 100 --display_port 8091 --which_model_netG resnet_9blocks --lambda_A 1 --lambda_B 1 --lambda_identity 0.1   --niter 90 --niter_decay 0 --fineSize 256 --no_html --batchSize 2  --gpu_id 2 --update_ratio 1 --unlabel_decay 0.99 --save_epoch_freq 1 --model cyclegan
