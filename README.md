@@ -38,11 +38,11 @@ Extraction code：8326
 Google drive: [MODELS](https://drive.google.com/file/d/1jQv_IVLHO98Nuj-wS0ebHE1GI1uqYokS/view?usp=sharing).
 
 ```
-python test.py --dataroot ./datasets/dehazing --name run_test --learn_residual --resize_or_crop crop --display_port 8095 --which_model_netG resnet_9blocks  --batchSize 1 --gpu_id 3 --model SDehazingnet --S_Dehazing_premodel ./checkpoints/run_danet_depth/netS_Dehazing.pth
+python test.py --dataroot ./datasets/dehazing --name run_test --learn_residual --resize_or_crop crop --display_port 8095 --which_model_netG resnet_9blocks  --batchSize 1 --gpu_id 3 --model SDehazingnet --S_Dehazing_premodel ./checkpoints/30_netS_Dehazing.pth
 ```
 
 ```
-python test.py --dataroot ./datasets/dehazing --name run_test --learn_residual --resize_or_crop crop --display_port 8095 --which_model_netG resnet_9blocks  --batchSize 1 --gpu_id 3 --model RDehazingnet --R_Dehazing_premodel ./checkpoints/run_danet_depth/netR_Dehazing.pth
+python test.py --dataroot ./datasets/dehazing --name run_test --learn_residual --resize_or_crop crop --display_port 8095 --which_model_netG resnet_9blocks  --batchSize 1 --gpu_id 3 --model RDehazingnet --R_Dehazing_premodel ./checkpoints/30_netR_Dehazing.pth
 ```
  
 ## Acknowledgments
