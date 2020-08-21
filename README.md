@@ -11,7 +11,7 @@ This is the PyTorch implementation for our CVPR'20 paper:
 
 ## Training 
 - Dataset
-Google drive: [DATASETS](https://drive.google.com/drive/folders/10cP6Z-n2G0006_ppW1WxkQpNKg3mSfnj).
+Google drive: [DATASETS](https://drive.google.com/drive/folders/10cP6Z-n2G0006_ppW1WxkQpNKg3mSfnj?usp=sharing).
 
 - Train CycleGAN 
 ```
